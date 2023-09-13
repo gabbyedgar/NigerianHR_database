@@ -14,11 +14,11 @@ CREATE TABLE "users" (
 INSERT INTO users
 (fullName, department, employmentType, position, leave, training, attendance) 
 VALUES
-('Mike Tyson', 'HR', 'Full-Time', 'HR Manager', 10, 'Onboarding', 'Present'),
-('Lebron James', 'Marketing', 'Part-Time', 'Marketing Coordinator', 5, 'Marketing Strategy', 'Present'),
-('Mike Johnson', 'IT', 'Full-Time', 'Systems Administrator', 12, 'Cybersecurity', 'Absent'),
-('Sarah Brown', 'Finance', 'Full-Time', 'Financial Analyst', 8, 'Financial Planning', 'Present'),
-('David Lee', 'Sales', 'Part-Time', 'Sales Associate', 7, 'Sales Techniques', 'Present');
+('Femi Adeola', 'HR', 'Full-Time', 'HR Manager', 10, 'Onboarding', 'Present'),
+('Tolu David', 'Marketing', 'Part-Time', 'Marketing Coordinator', 5, 'Marketing Strategy', 'Present'),
+('John Chukwu', 'IT', 'Full-Time', 'Systems Administrator', 12, 'Cybersecurity', 'Absent'),
+('Ada Felicia', 'Finance', 'Full-Time', 'Financial Analyst', 8, 'Financial Planning', 'Present'),
+('Ayo Eze', 'Sales', 'Part-Time', 'Sales Associate', 7, 'Sales Techniques', 'Present');
 
 DROP TABLE IF EXISTS departments CASCADE;
 CREATE TABLE "departments" (
